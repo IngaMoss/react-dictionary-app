@@ -6,12 +6,12 @@ import './Synonyms.css';
 export default function Synonyms(props) {
     if (props.synonyms) {
         return (
-            <p><strong>Synonyms: </strong> <ul className="Synonyms">
+            <ul className="Synonyms">
                 {props.synonyms.map(function (synonym, index) {
-                    return <li key={index}>{synonym}</li >;
+                    return <div className="List" key={index}>{synonym}</div >;
                 }
                 )}
-            </ul></p>);
+            </ul>);
     } else {
         return null;
     }
