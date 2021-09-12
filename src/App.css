@@ -1,3 +1,7 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .container {
   background-color: #AB9A9E;
   color: #4D4D4D;
