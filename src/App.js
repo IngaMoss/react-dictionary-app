@@ -17,7 +17,8 @@ function App() {
         </main>
         <footer className="App-footer">
           <img src={logo2} className="App-logo2" alt="book" />
-          Coded by Inga Mosienko</footer>
+          <a href="https://github.com/IngaMoss/react-dictionary-app" target="_blank" rel="noreferrer">
+            Open-source code</a>, created by Inga Mosienko</footer>
       </div>
     </div>
   );
